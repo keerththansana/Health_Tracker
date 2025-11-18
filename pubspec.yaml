@@ -1,0 +1,47 @@
+name: health_tracker
+description: A new Flutter project.
+version: 1.0.0+1
+environment:
+  sdk: '>=3.4.4 <4.0.0'
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+  cached_network_image: ^3.3.1
+  flutter_svg: ^2.0.10+1
+  flutter_login_facebook: ^1.6.2
+  flutter_bloc: ^8.1.6
+  equatable: ^2.0.5
+  shared_preferences: ^2.3.0
+  connectivity_plus: ^6.0.4
+  flutter_switch: ^0.3.2
+  responsive_grid_list: ^1.4.0
+  dio: ^5.5.0+1
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+flutter:
+  uses-material-design: true
+assets:
+  - assets/
+  - assets/images/
+fonts:
+  - family: Roboto
+    fonts:
+      - asset: assets/fonts/RobotoBold.ttf
+        weight: 700
+      - asset: assets/fonts/RobotoRegular.ttf
+        weight: 400
+      - asset: assets/fonts/RobotoLight.ttf
+        weight: 300
+  - family: Lato
+    fonts:
+      - asset: assets/fonts/LatoRegular.ttf
+        weight: 400
+      - asset: assets/fonts/LatoBold.ttf
+        weight: 700
+  - family: Inter
+    fonts:
+      - asset: assets/fonts/InterRegular.ttf
+        weight: 400
