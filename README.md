@@ -2,8 +2,6 @@
 
 A multi-platform Flutter experience for onboarding, coaching, and tracking healthier habits. The app ships with guided onboarding, personalized goal collection, daily habit toggles, progress insights, and a profile hub, all powered by BLoC-driven presentation logic, theming helpers, and device-local persistence.
 
-![Health Tracker preview](./1.png)
-
 ![Health Tracker flows](./Design.png)
 
 ## Highlights
